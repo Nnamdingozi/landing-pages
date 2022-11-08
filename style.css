@@ -1,0 +1,486 @@
+@font-face {
+  font-family: fonty;
+  src: url(Comfortaa-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(243, 244, 245);
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  font-family: fonty, "Times New Roman", Times, serif;
+}
+header .logo_box {
+  margin-left: 80px;
+}
+header .logo_box .logo_svg {
+  width: 250px;
+  padding-left: 0 60px;
+}
+header .nav_box {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+  justify-content: space-between;
+}
+header .nav_box .nav_items {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  margin: 0 10px;
+}
+header .nav_box .nav_items:hover {
+  color: rgb(41, 128, 227);
+}
+header .nav_box .search_box {
+  display: flex;
+  align-items: center;
+}
+header .nav_box .search_box .search_btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0 70px 0 5px;
+}
+header .nav_box .search_box .reg_btn {
+  background-color: rgb(39, 113, 250);
+  padding: 0.63rem 1.25rem;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1em;
+  width: 180px;
+  cursor: pointer;
+}
+header .nav_box .search_box .reg_btn:hover {
+  color: rgb(39, 113, 250);
+  background-color: white;
+}
+header .nav_box .hamburger_menu {
+  display: none;
+}
+header .nav_box .hamburger_menu .hamburger_line {
+  height: 5px;
+  width: 25px;
+  background-color: #000;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.main1 {
+  display: flex;
+  font-family: fonty, Verdana, Geneva, Tahoma, sans-serif;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 0 5%;
+  padding-top: 180px;
+}
+.main1 .introtext {
+  width: 50%;
+  padding: 40px 0px 70px 70px;
+}
+.main1 .introtext .hbeaut {
+  font-family: fonty, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  margin-bottom: 70px;
+}
+.main1 .introtext .hbeaut .spanh1 {
+  color: rgb(2, 119, 252);
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
+.main1 .introtext .hbeaut .psv {
+  color: rgb(94, 91, 91);
+  font-size: larger;
+  margin-top: 70px;
+}
+.main1 .introtext .prem_btn {
+  display: flex;
+  margin-top: 70px;
+  font-size: larger;
+  border: none;
+  background-color: none;
+}
+.main1 .introtext .prem_btn .prem {
+  background-color: #0071f2;
+  color: white;
+  border-radius: 5px;
+  height: 35px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.main1 .introtext .prem_btn .prem:hover {
+  background-color: white;
+  color: rgb(67, 67, 241);
+}
+.main1 .introtext .prem_btn .prem1 {
+  background-color: white;
+  color: #0071f2;
+  border: 1px solid #0071f2;
+  border-radius: 3px;
+  height: 35px;
+  width: 180px;
+  margin-left: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.main1 .introtext .prem_btn .prem1:hover {
+  background-color: rgb(67, 67, 241);
+  color: white;
+}
+.main1 .guywithlaptop {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 50%;
+  margin-top: 80px;
+}
+.main1 .guywithlaptop .imglaptop {
+  width: 100%;
+}
+.main1 .div-wrapper {
+  display: flex;
+  background-color: rgb(39, 113, 250);
+  height: 400px;
+  width: 100%;
+  border-radius: 4px;
+}
+.main1 .div-wrapper .money {
+  padding: 40px 0px 50px 70px;
+  border-radius: 2px;
+}
+.main1 .div-wrapper .money .deldo {
+  display: flex;
+}
+.main1 .div-wrapper .money .deldo .deliver {
+  font-size: 3em;
+  color: white;
+}
+.main1 .div-wrapper .money .deldo .dollar {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: white;
+  font-size: 3em;
+  font-weight: 150em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 65px;
+  width: 350px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main1 .div-wrapper .money .deldo .dollar .spandoll {
+  color: rgb(39, 113, 250);
+  text-decoration: line-through;
+}
+.main1 .div-wrapper .money .deldo .dollar .spandoll1 {
+  color: black;
+  text-decoration: none;
+}
+.main1 .div-wrapper .money .editable {
+  font-size: x-large;
+  color: white;
+  display: block;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.main1 .div-wrapper .money .browse {
+  border-radius: 5px;
+  border: none;
+  color: rgb(39, 113, 250);
+  width: 180px;
+  height: 40px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.main1 .div-wrapper .money .browse:hover {
+  background-color: rgb(2, 2, 43);
+}
+.main1 .text {
+  margin-top: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(49, 46, 46);
+}
+.main1 .text .freetext {
+  width: 600px;
+}
+.main1 .text .logo2 {
+  border: 1px solid rgb(129, 120, 120);
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 30px;
+  font-weight: 900px;
+  opacity: 0.9;
+}
+.main1 .text .cobox {
+  border: 1px solid rgb(129, 120, 120);
+  border-radius: 5px;
+  margin-left: 30px;
+  height: 50px;
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main1 .text .cobox .bb {
+  border: 1px solid none;
+  background-color: #0071f2;
+  width: 20px;
+  height: 20px;
+}
+.main1 .text .cobox1 {
+  border-radius: 5px;
+  margin-left: 30px;
+  height: 50px;
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main1 .text .cobox1 .bb1 {
+  border: 1px solid none;
+  background-color: #2f2e41;
+  width: 20px;
+  height: 20px;
+}
+.main1 .imgs {
+  padding-top: 70px;
+  display: grid;
+  grid-template-columns: 450px 450px 450px;
+  grid-template-rows: 380px 380px 380px 380px 380px;
+  justify-content: space-evenly;
+}
+.main1 .imgs .imgitem {
+  background-color: rgb(253, 253, 253);
+  height: 350px;
+  width: 420px;
+  align-items: center;
+  justify-items: center;
+}
+.main1 .imgs:hover {
+  background-color: rgb(235, 235, 250);
+}
+.main1 .imgs .diag {
+  height: 250px;
+  width: 300px;
+}
+.main1 .imgs .name {
+  color: #a9a9ad;
+}
+.main1 .button_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding-top: 50px;
+}
+.main1 .button_wrapper .load {
+  background-color: #0071f2;
+  color: white;
+  border-radius: 5px;
+  height: 50px;
+  width: 200px;
+  cursor: pointer;
+  border: 1px solid #0071f2;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+.main1 .button_wrapper .load:hover {
+  background-color: white;
+  color: #0071f2;
+  border: 1px solid #0071f2;
+}
+.main1 .illustration {
+  margin-top: 140px;
+  color: rgb(68, 67, 67);
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+}
+.main1 .img_price {
+  padding-top: 70px;
+  display: grid;
+  grid-template-columns: 450px 450px 450px;
+  grid-template-rows: 800px 800px 800px 800px 800px 800px;
+  justify-content: space-evenly;
+}
+.main1 .img_price .sports_fitness {
+  height: 350px;
+  width: 440px;
+  align-items: center;
+  justify-items: center;
+}
+.main1 .img_price .sports_fitness .bulk_img {
+  height: 250px;
+  width: 200px;
+}
+.main1 .img_price .sports_fitness .price {
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: rgb(235, 235, 250);
+  color: #0071f2;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 1024px) {
+  header .logo_box {
+    margin-left: 20px;
+  }
+  header .logo_box .logo_svg {
+    width: 180px;
+  }
+  header .nav_box {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  header .nav_box .nav_items {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    margin: 0 15px;
+  }
+  header .nav_box .nav_items:hover {
+    color: rgb(41, 128, 227);
+  }
+  header .nav_box .search_box {
+    display: flex;
+    align-items: center;
+  }
+  header .nav_box .search_box .search_btn {
+    margin: 0 40px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  header .nav_box .search_box .reg_btn {
+    background-color: rgb(10, 70, 253);
+    padding: 0.63rem 1.25rem;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  header .nav_box .hamburger_menu {
+    display: none;
+  }
+  header .nav_box .hamburger_menu .hamburger_line {
+    height: 5px;
+    width: 25px;
+    background-color: #000;
+    margin: 3px;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 425px) {
+  header {
+    width: 100vw;
+  }
+  header .logo_box {
+    margin-left: 8px;
+  }
+  header .logo_box .logo_svg {
+    width: 70%;
+  }
+  header .nav_box {
+    margin-right: 8px;
+  }
+  header .nav_box nav {
+    display: none;
+  }
+  header .nav_box .search_box .search_btn {
+    margin: 10px;
+  }
+  header .nav_box .search_box .reg_btn {
+    width: 120px;
+  }
+  header .nav_box .hamburger_menu {
+    display: block;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  header .nav_box .search_box {
+    display: none;
+  }
+}
+.footer {
+  background-color: rgb(47, 47, 56);
+  height: 160px;
+  margin: 0 5%;
+}
+.footer .navandlogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+.footer .navandlogo .fnav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+.footer .navandlogo .fnav .navitem2lass {
+  color: white;
+  text-decoration: none;
+  font-size: smaller;
+  font-family: fonty, "Courier New", Courier, monospace;
+}
+.footer .navandlogo .fnav .navitem2lass:hover {
+  color: #0071f2;
+}
+.footer .navandlogo .flogo {
+  justify-content: flex-end;
+  align-items: center;
+  width: 350px;
+  display: flex;
+  height: 70px;
+}
+.footer .navandlogo .flogo .social {
+  margin-right: 15px;
+}
+.footer .last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .last .lastext {
+  width: 90%;
+  padding-left: 400px;
+  color: white;
+}
+.footer .last .lastext .recap {
+  justify-content: flex-end;
+  border: 1px solid red;
+}
+.footer .last .spaninfo {
+  text-decoration: underline;
+  -webkit-text-decoration-line: rgb(243, 244, 245);
+          text-decoration-line: rgb(243, 244, 245);
+}/*# sourceMappingURL=style.css.map */
